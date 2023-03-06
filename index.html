@@ -8,19 +8,21 @@
     <title>Quiz</title>
 </head>
 <body>
-    <h1>Astronomy Quiz!</h1>
     <div class="start-section section-card">
+        <h1>Astronomy Quiz!</h1>
+        <div class="instructions">
         <h2>Instructions: </h2>
         <p>Test your astronomy skills!</p>
         <p>You will be presented with 7 questions and 4 answer options to choose from.</p>
         <p>If the option is correct, the option will change color to green.</p>
-        <p>If the option is incorrect, the option will change color to red and the correct answer will change color to green.</p>
+        <p>If the option is incorrect, the option will change color to red.</p>
         <p>You are not allowed to change answer after you have chosen one.</p>
+    </div>
         <button type="button" class="button start-button">Start Quiz</button>
 
     </div>
     <div class="name-section section-card">
-        <div id="name-container">
+        <div id="name-container" class="name-container">
             <label class="labels" id="username-label" for="username">Enter your name to start quiz!</label>
             <input class="input" type="text" name="username" id="username">
             <button class="button" type="button" id="name-button" onclick="nameButtonEnter(event)"
@@ -31,7 +33,7 @@
     </div>
     <div class="game-section section-card">
         <div class="question-count"></div>
-        <div id="name-display"></div>
+        <div id="name-display" class="name-display"></div>
         <div class="question-text"></div>
 
         <div class="choices-container">
@@ -40,24 +42,19 @@
         <div class="next-question-button-container">
             <button type="button" class="button next-question-button" onclick="nextQuestion()">Next</button>
         </div>
-        <div class="answers-indicator">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
     </div>
     <div class="summary-section section-card">
         <h2>Quiz summary</h2>
-        <div class="total-questions">Total Questions: 10
-    </div>
+        <h3 class="total-questions">Total Questions: 10
+    </h3>
     <div class="results">
         <span class="correct-answers"></span>
     <span class="incorrect-answers"></span>
 </div>
+<div class="button-container">
 <button type="button" class="button play-again" onclick="playAgain()">Play again</button>
 <button type="button" class="button home-button" onclick="homePageEnter()">Home</button>
+</div>
 </div>
     <script src="script.js"></script>
 </body>

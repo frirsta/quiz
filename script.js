@@ -67,7 +67,6 @@ function startButtonEnter(event) {
     nameSection.style.display = "flex";
     document.getElementById("username").value = "";
     document.getElementById("username").focus();
-    newQuestion();
 }
 let startQuizButton = document.querySelector(".start-button");
 startQuizButton.addEventListener("click", startButtonEnter);
@@ -157,7 +156,7 @@ function checkResult(choiceElement){
         nextButton.style.display = "flex";
     }
     else{
-        console.log("answer is wrong")
+        // console.log("answer is wrong")
         ++incorrect;
         choiceElement.classList.add("incorrect");
         let choicesLength = choicesContainer.children.length;
