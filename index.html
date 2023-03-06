@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz</title>
+</head>
+<body>
+    <h1>Quiz</h1>
+    <div class="start-section section-card">
+        <h2>Instructions: </h2>
+        <p>Rules</p>
+        <button type="button" class="button start-button">Start Quiz</button>
+
+    </div>
+    <div class="name-section section-card">
+        <div id="name-container">
+            <label class="labels" id="username-label" for="username">Enter your name to start quiz!</label>
+            <input class="input" type="text" name="username" id="username">
+            <button class="button" type="button" id="name-button" onclick="nameButtonEnter(event)"
+                aria-label="Submit name and start the quiz">Enter
+                Name</button>
+
+        </div>
+    </div>
+    <div class="game-section section-card">
+        <div class="question-count"></div>
+        <div id="name-display"></div>
+        <div class="question-text"></div>
+
+        <div class="choices-container">
+
+        </div>
+        <div class="next-question-button-container">
+            <button type="button" class="button next-question-button" onclick="nextQuestion()">Next</button>
+        </div>
+        <div class="answers-indicator">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <div class="summary-section section-card">
+        <h2>Quiz summary</h2>
+        <div class="total-questions">Total Questions: 10
+    </div>
+    <div class="results">
+        <span class="correct-answers"></span>
+    <span class="incorrect-answers"></span>
+</div>
+<button type="button" class="button play-again" onclick="playAgain()">Play again</button>
+<button type="button" class="button home-button" onclick="homePageEnter()">Home</button>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
