@@ -9,7 +9,7 @@
 }
 
 body{
-    background-color: aquamarine;
+    background: url('assets/images/background.jpg') no-repeat center center;
     font-family: 'Comfortaa', cursive;
 }
 .section-card{

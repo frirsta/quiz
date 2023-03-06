@@ -1,22 +1,37 @@
 const questions = [
     {
-        question: 'What is 1+2',
-        choices:['1', '2', '3', 4],
+        question: 'What is the Milky Way?',
+        choices:['Star', 'Planet', 'Galaxy', 'Moon'],
         answer: 2
     },
     {
-        question: 'What is 1+0',
-        choices:['1', '2', '3', 4],
-        answer: 0
-    },
-    {
-        question: 'What is 1+3',
-        choices:['1', '2', '3', 4],
+        question: 'What planet has more moons?',
+        choices:['Neptune', 'Saturn', 'Mars', 'Jupiter'],
         answer: 3
     },
     {
-        question: 'What is 1+5',
-        choices:['5', '2', '6', 4],
+        question: 'What planet is closest to the sun?',
+        choices:['Mercury', 'Saturn', 'Mars', 'Earth'],
+        answer: 0
+    },
+    {
+        question: 'What planet is farthest away from the sun?',
+        choices:['Mercury', 'Saturn', 'Neptune', 'Venus'],
+        answer: 2
+    },
+    {
+        question: 'How old is the universe?',
+        choices:['13.7 billion', '7.13 million', '7 billion', '13.7 million'],
+        answer: 0
+    },
+    {
+        question: 'Which planet is the biggest in the solar system?',
+        choices:['Jupiter', 'Uranus', 'Saturn', 'Neptune'],
+        answer: 0
+    },
+    {
+        question: 'Which planet is the smallest in the solar system?',
+        choices:['Jupiter', 'Uranus', 'Mercury', 'Earth'],
         answer: 2
     }
 ];
