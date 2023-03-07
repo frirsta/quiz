@@ -1,5 +1,11 @@
-Favicon:
+# Astrology Quiz
+This is a hobby project.
+This is the link to the website: 
+https://frirsta.github.io/quiz/
 
+## Sources
+
+Favicon:
 <a href="https://www.flaticon.com/free-icons/universe" title="universe icons">Universe icons created by Freepik - Flaticon</a>
 
 Background:
