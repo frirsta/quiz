@@ -26,6 +26,13 @@ https://frirsta.github.io/quiz/
 <img src="assets/images/summary_tablet.png" style="width: 30%;">
 <img src="assets/images/summary_mobile.png" style="width: 20%;">
 
+
+## Technologies
+* JavaScript
+* HTML
+* CSS
+
+
 ## Sources
 
 Favicon:
