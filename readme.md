@@ -1,4 +1,4 @@
-# Astrology Quiz
+# Astronomy Quiz
 This is a hobby project.
 This is the link to the website: 
 https://frirsta.github.io/quiz/
